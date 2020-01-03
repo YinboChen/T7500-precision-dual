@@ -1,0 +1,484 @@
+0:100  0:100  MemLog inited, TSC freq: 3059001331
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  LegacyRegion2: Chipset/proc: 0x34068086
+0:100  0:000   Core i7 processors (PAM 0x40-0x47)
+0:100  0:000   Test PAM1=(0x41=11, 0x5a=00, 0x81=0D, 0x91=62) at chipset 34068086
+0:100  0:000  , Install = Success
+0:112  0:012  BiosVideoDriverBindingStart!
+0:113  0:000  BiosVideoCheckForVbe
+0:113  0:000  EdidOverride not found
+0:261  0:148   Edid1-
+0:410  0:148   Edid0-
+0:480  0:069     0 640x480 attr=3BF - ok, 640x480, working, highest, pref=0
+0:482  0:002     1 800x600 attr=3BF - ok, 800x600, working, highest, pref=1
+0:485  0:002     2 1024x768 attr=3BF - ok, 1024x768, working, highest, pref=2
+0:487  0:002     3 1280x1024 attr=3BF - ok
+0:501  0:014     4 1920x1080 attr=3BF - ok
+0:504  0:002     5 1280x800 attr=3BF - ok
+0:504  0:000  BV new mode: 2 1024x768
+0:762  0:257   SetMode pref 2 (2) = Success
+6:060  5:298  
+6:060  0:000  Now is 15.7.2019,  14:3:31 (GMT)
+6:060  0:000  Starting Clover revision: 4859 on CLOVER EFI
+6:060  0:000  Build with: [Args: --x64-mcp --no-usb --ext-co -D NO_GRUB_DRIVERS_EMBEDDED | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 3 | OS: 10.13.5 | XCODE: 9.4.1]
+6:060  0:000  SelfDevicePath=PcieRoot(0x0)\Pci(0x1A,0x7)\USB(0x2,0x0)\HD(1,MBR,0x00000000,0x194000,0x394B000) @D6301E98
+6:060  0:000  SelfDirPath = \EFI\CLOVER
+6:060  0:000  === [ Get Smbios ] ========================================
+6:060  0:000  Type 16 Index = 0
+6:060  0:000  Total Memory Slots Count = 12
+6:060  0:000  Type 17 Index = 0
+6:060  0:000  SmbiosTable.Type17->Speed = 1333MHz
+6:060  0:000  SmbiosTable.Type17->Size = 4096MB
+6:060  0:000  SmbiosTable.Type17->Bank/Device =  DIMM 1          
+6:060  0:000  SmbiosTable.Type17->Vendor = 802C80B3802C    
+6:060  0:000  SmbiosTable.Type17->SerialNumber = DB53DC63
+6:060  0:000  SmbiosTable.Type17->PartNumber = 36JSZF51272PZ1G4F1
+6:060  0:000  Type 17 Index = 1
+6:060  0:000  SmbiosTable.Type17->Speed = 1333MHz
+6:060  0:000  SmbiosTable.Type17->Size = 4096MB
+6:060  0:000  SmbiosTable.Type17->Bank/Device =  DIMM 2          
+6:060  0:000  SmbiosTable.Type17->Vendor = 802C80B3802C    
+6:060  0:000  SmbiosTable.Type17->SerialNumber = DC6E2A37
+6:060  0:000  SmbiosTable.Type17->PartNumber = 36JSZF51272PZ1G4F1
+6:060  0:000  Type 17 Index = 2
+6:060  0:000  SmbiosTable.Type17->Speed = 1333MHz
+6:060  0:000  SmbiosTable.Type17->Size = 4096MB
+6:060  0:000  SmbiosTable.Type17->Bank/Device =  DIMM 3          
+6:060  0:000  SmbiosTable.Type17->Vendor = 802C80B3802C    
+6:060  0:000  SmbiosTable.Type17->SerialNumber = DC6E2A36
+6:060  0:000  SmbiosTable.Type17->PartNumber = 36JSZF51272PZ1G4F1
+6:060  0:000  Type 17 Index = 3
+6:060  0:000  Ignoring insane frequency value 0MHz
+6:060  0:000  SmbiosTable.Type17->Speed = 0MHz
+6:060  0:000  SmbiosTable.Type17->Size = 0MB
+6:060  0:000  SmbiosTable.Type17->Bank/Device =  DIMM 4          
+6:060  0:000  SmbiosTable.Type17->Vendor = <null string>
+6:060  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+6:060  0:000  SmbiosTable.Type17->PartNumber = <null string>
+6:060  0:000  Type 17 Index = 4
+6:060  0:000  Ignoring insane frequency value 0MHz
+6:060  0:000  SmbiosTable.Type17->Speed = 0MHz
+6:060  0:000  SmbiosTable.Type17->Size = 0MB
+6:060  0:000  SmbiosTable.Type17->Bank/Device =  DIMM 5          
+6:060  0:000  SmbiosTable.Type17->Vendor = <null string>
+6:060  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+6:060  0:000  SmbiosTable.Type17->PartNumber = <null string>
+6:060  0:000  Type 17 Index = 5
+6:060  0:000  Ignoring insane frequency value 0MHz
+6:060  0:000  SmbiosTable.Type17->Speed = 0MHz
+6:060  0:000  SmbiosTable.Type17->Size = 0MB
+6:060  0:000  SmbiosTable.Type17->Bank/Device =  DIMM 6          
+6:060  0:000  SmbiosTable.Type17->Vendor = <null string>
+6:060  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+6:060  0:000  SmbiosTable.Type17->PartNumber = <null string>
+6:060  0:000  Type 17 Index = 6
+6:060  0:000  SmbiosTable.Type17->Speed = 1333MHz
+6:060  0:000  SmbiosTable.Type17->Size = 4096MB
+6:060  0:000  SmbiosTable.Type17->Bank/Device =  RISER DIMM 1
+6:060  0:000  SmbiosTable.Type17->Vendor = 802C80B3802C    
+6:060  0:000  SmbiosTable.Type17->SerialNumber = DC6E2A26
+6:060  0:000  SmbiosTable.Type17->PartNumber = 36JSZF51272PZ1G4F1
+6:060  0:000  Type 17 Index = 7
+6:060  0:000  SmbiosTable.Type17->Speed = 1333MHz
+6:060  0:000  SmbiosTable.Type17->Size = 4096MB
+6:060  0:000  SmbiosTable.Type17->Bank/Device =  RISER DIMM 2
+6:060  0:000  SmbiosTable.Type17->Vendor = 802C80B3802C    
+6:060  0:000  SmbiosTable.Type17->SerialNumber = DC6E2A38
+6:060  0:000  SmbiosTable.Type17->PartNumber = 36JSZF51272PZ1G4F1
+6:060  0:000  Type 17 Index = 8
+6:060  0:000  SmbiosTable.Type17->Speed = 1333MHz
+6:060  0:000  SmbiosTable.Type17->Size = 4096MB
+6:060  0:000  SmbiosTable.Type17->Bank/Device =  RISER DIMM 3
+6:060  0:000  SmbiosTable.Type17->Vendor = 802C80B3802C    
+6:060  0:000  SmbiosTable.Type17->SerialNumber = DB53DC58
+6:060  0:000  SmbiosTable.Type17->PartNumber = 36JSZF51272PZ1G4F1
+6:060  0:000  Type 17 Index = 9
+6:060  0:000  Ignoring insane frequency value 0MHz
+6:060  0:000  SmbiosTable.Type17->Speed = 0MHz
+6:060  0:000  SmbiosTable.Type17->Size = 0MB
+6:060  0:000  SmbiosTable.Type17->Bank/Device =  RISER DIMM 4
+6:060  0:000  SmbiosTable.Type17->Vendor = <null string>
+6:060  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+6:060  0:000  SmbiosTable.Type17->PartNumber = <null string>
+6:060  0:000  Type 17 Index = 10
+6:060  0:000  Ignoring insane frequency value 0MHz
+6:060  0:000  SmbiosTable.Type17->Speed = 0MHz
+6:060  0:000  SmbiosTable.Type17->Size = 0MB
+6:060  0:000  SmbiosTable.Type17->Bank/Device =  RISER DIMM 5
+6:060  0:000  SmbiosTable.Type17->Vendor = <null string>
+6:060  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+6:060  0:000  SmbiosTable.Type17->PartNumber = <null string>
+6:060  0:000  Type 17 Index = 11
+6:060  0:000  Ignoring insane frequency value 0MHz
+6:060  0:000  SmbiosTable.Type17->Speed = 0MHz
+6:060  0:000  SmbiosTable.Type17->Size = 0MB
+6:060  0:000  SmbiosTable.Type17->Bank/Device =  RISER DIMM 6
+6:060  0:000  SmbiosTable.Type17->Vendor = <null string>
+6:060  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+6:060  0:000  SmbiosTable.Type17->PartNumber = <null string>
+6:060  0:000  Boot status=0
+6:060  0:000  Running on: 'Precision WorkStation T7500 ' with board '06FW8P'
+6:060  0:000  === [ GetCPUProperties ] ==================================
+6:060  0:000  CPU Vendor = 756E6547 Model=206C2
+6:060  0:000   The CPU supported SSE4.1
+6:060  0:000  BrandString = Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+6:060  0:000   The CPU supported turbo
+6:060  0:000  FSBFrequency = 134 MHz, DMI FSBFrequency = 6400 MHz, Corrected FSBFrequency = 133 MHz
+6:060  0:000  MaxDiv/MinDiv: 23.0/12
+6:060  0:000  Turbo: 25/25/26/26
+6:060  0:000  Features: 0xBFEBFBFF
+6:060  0:000  Threads: 12
+6:060  0:000  Cores: 6
+6:060  0:000  FSB: 133 MHz
+6:060  0:000  CPU: 3066 MHz
+6:060  0:000  TSC: 3066 MHz
+6:060  0:000  PIS: 533 MHz
+6:060  0:000  ExternalClock: 133 MHz
+6:060  0:000  === [ GetDevices ] ========================================
+6:060  0:000  PCI (00|00:00.00) : 8086 3406 class=060000
+6:060  0:000  PCI (00|00:01.00) : 8086 3408 class=060400
+6:060  0:000  PCI (00|01:00.00) : 12D8 E130 class=060400
+6:060  0:000  PCI (00|00:03.00) : 8086 340A class=060400
+6:060  0:000  PCI (00|03:00.00) : 10DE 1280 class=030000
+6:060  0:000   - GFX: Model=nVidia GeForce GT 635 family 108 (Nvidia)
+6:060  0:000  PCI (00|03:00.01) : 10DE 0E0F class=040300
+6:060  0:000   - HDMI Audio: 
+6:060  0:000  PCI (00|00:07.00) : 8086 340E class=060400
+6:060  0:000  PCI (00|00:14.00) : 8086 342E class=080000
+6:060  0:000  PCI (00|00:14.01) : 8086 3422 class=080000
+6:060  0:000  PCI (00|00:14.02) : 8086 3423 class=080000
+6:060  0:000  PCI (00|00:1A.00) : 8086 3A37 class=0C0300
+6:060  0:000  PCI (00|00:1A.01) : 8086 3A38 class=0C0300
+6:060  0:000  PCI (00|00:1A.02) : 8086 3A39 class=0C0300
+6:060  0:000  PCI (00|00:1A.07) : 8086 3A3C class=0C0320
+6:061  0:000  PCI (00|00:1B.00) : 8086 3A3E class=040300
+6:061  0:000  PCI (00|00:1C.00) : 8086 3A40 class=060400
+6:061  0:000  PCI (00|00:1C.05) : 8086 3A4A class=060400
+6:061  0:000  PCI (00|06:00.00) : 14E4 1681 class=020000
+6:061  0:000   - LAN: 0 Vendor=Broadcom
+6:061  0:000  PCI (00|00:1D.00) : 8086 3A34 class=0C0300
+6:061  0:000  PCI (00|00:1D.01) : 8086 3A35 class=0C0300
+6:061  0:000  PCI (00|00:1D.02) : 8086 3A36 class=0C0300
+6:061  0:000  PCI (00|00:1D.07) : 8086 3A3A class=0C0320
+6:061  0:000  PCI (00|00:1E.00) : 8086 244E class=060401
+6:061  0:000  PCI (00|07:0A.00) : 104C 8023 class=0C0010
+6:061  0:000  PCI (00|00:1F.00) : 8086 3A16 class=060100
+6:061  0:000  PCI (00|00:1F.02) : 8086 3A22 class=010601
+6:061  0:000  PCI (00|00:1F.03) : 8086 3A30 class=0C0500
+6:061  0:000  PCI (00|20:03.00) : 8086 340A class=060400
+6:061  0:000  PCI (00|20:07.00) : 8086 340E class=060400
+6:061  0:000  PCI (00|20:09.00) : 8086 3410 class=060400
+6:061  0:000  PCI (00|20:14.00) : 8086 342E class=080000
+6:061  0:000  PCI (00|20:14.01) : 8086 3422 class=080000
+6:061  0:000  PCI (00|20:14.02) : 8086 3423 class=080000
+6:061  0:000  PCI (00|3E:00.00) : 8086 2C70 class=060000
+6:061  0:000  PCI (00|3E:00.01) : 8086 2D81 class=060000
+6:061  0:000  PCI (00|3E:02.00) : 8086 2D90 class=060000
+6:061  0:000  PCI (00|3E:02.01) : 8086 2D91 class=060000
+6:061  0:000  PCI (00|3E:02.02) : 8086 2D92 class=060000
+6:061  0:000  PCI (00|3E:02.03) : 8086 2D93 class=060000
+6:061  0:000  PCI (00|3E:02.04) : 8086 2D94 class=060000
+6:061  0:000  PCI (00|3E:02.05) : 8086 2D95 class=060000
+6:061  0:000  PCI (00|3E:03.00) : 8086 2D98 class=060000
+6:061  0:000  PCI (00|3E:03.01) : 8086 2D99 class=060000
+6:061  0:000  PCI (00|3E:03.02) : 8086 2D9A class=060000
+6:061  0:000  PCI (00|3E:03.04) : 8086 2D9C class=060000
+6:061  0:000  PCI (00|3E:04.00) : 8086 2DA0 class=060000
+6:061  0:000  PCI (00|3E:04.01) : 8086 2DA1 class=060000
+6:061  0:000  PCI (00|3E:04.02) : 8086 2DA2 class=060000
+6:061  0:000  PCI (00|3E:04.03) : 8086 2DA3 class=060000
+6:061  0:000  PCI (00|3E:05.00) : 8086 2DA8 class=060000
+6:061  0:000  PCI (00|3E:05.01) : 8086 2DA9 class=060000
+6:061  0:000  PCI (00|3E:05.02) : 8086 2DAA class=060000
+6:061  0:000  PCI (00|3E:05.03) : 8086 2DAB class=060000
+6:061  0:000  PCI (00|3E:06.00) : 8086 2DB0 class=060000
+6:061  0:000  PCI (00|3E:06.01) : 8086 2DB1 class=060000
+6:061  0:000  PCI (00|3E:06.02) : 8086 2DB2 class=060000
+6:061  0:000  PCI (00|3E:06.03) : 8086 2DB3 class=060000
+6:061  0:000  PCI (00|3F:00.00) : 8086 2C70 class=060000
+6:061  0:000  PCI (00|3F:00.01) : 8086 2D81 class=060000
+6:061  0:000  PCI (00|3F:02.00) : 8086 2D90 class=060000
+6:061  0:000  PCI (00|3F:02.01) : 8086 2D91 class=060000
+6:061  0:000  PCI (00|3F:02.02) : 8086 2D92 class=060000
+6:061  0:000  PCI (00|3F:02.03) : 8086 2D93 class=060000
+6:061  0:000  PCI (00|3F:02.04) : 8086 2D94 class=060000
+6:061  0:000  PCI (00|3F:02.05) : 8086 2D95 class=060000
+6:061  0:000  PCI (00|3F:03.00) : 8086 2D98 class=060000
+6:061  0:000  PCI (00|3F:03.01) : 8086 2D99 class=060000
+6:061  0:000  PCI (00|3F:03.02) : 8086 2D9A class=060000
+6:061  0:000  PCI (00|3F:03.04) : 8086 2D9C class=060000
+6:061  0:000  PCI (00|3F:04.00) : 8086 2DA0 class=060000
+6:061  0:000  PCI (00|3F:04.01) : 8086 2DA1 class=060000
+6:061  0:000  PCI (00|3F:04.02) : 8086 2DA2 class=060000
+6:061  0:000  PCI (00|3F:04.03) : 8086 2DA3 class=060000
+6:061  0:000  PCI (00|3F:05.00) : 8086 2DA8 class=060000
+6:061  0:000  PCI (00|3F:05.01) : 8086 2DA9 class=060000
+6:061  0:000  PCI (00|3F:05.02) : 8086 2DAA class=060000
+6:061  0:000  PCI (00|3F:05.03) : 8086 2DAB class=060000
+6:061  0:000  PCI (00|3F:06.00) : 8086 2DB0 class=060000
+6:061  0:000  PCI (00|3F:06.01) : 8086 2DB1 class=060000
+6:061  0:000  PCI (00|3F:06.02) : 8086 2DB2 class=060000
+6:061  0:000  PCI (00|3F:06.03) : 8086 2DB3 class=060000
+6:061  0:000  === [ GetDefaultSettings ] ================================
+6:061  0:000  Clover load options size = 0 bytes
+6:111  0:049  EFI\CLOVER\config.plist loaded: Success
+6:117  0:005  === [ GetListOfThemes ] ===================================
+6:140  0:023  - [00]: MaterialDark
+6:175  0:035  === [ Found config plists ] ===============================
+6:175  0:000  - config.plist
+6:175  0:000  === [ GetEarlyUserSettings ] ==============================
+6:175  0:000  timeout set to 0
+6:175  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+6:245  0:069  KextsToPatch: 1 requested
+6:249  0:004   - [00]: AppleAHCIPort (External icons patch) :: BinPatch :: data len: 8
+6:263  0:013  Default theme: tonymacx86
+6:266  0:002  Hiding entries with string Windows
+6:269  0:003  Hiding entries with string BOOTX64.EFI
+6:272  0:002  === [ LoadDrivers ] =======================================
+6:563  0:290  === [ InitScreen ] ========================================
+6:820  0:256  SetScreenResolution: 1920x1080 - setting Mode 4
+6:827  0:006  BV new mode: 4 1920x1080
+7:412  0:585  Video mode change to mode #4: Success
+7:926  0:514  Console modes reported: 4, available modes:
+7:929  0:002   - [01]: 80x25
+7:932  0:002   - [02]: 80x50
+7:935  0:002   - [03]: 100x31
+7:939  0:003   - [04]: 240x56 (current mode)
+7:943  0:004  SetScreenResolution: 1920x1080 - already set
+7:951  0:007  reinit: self device path=PcieRoot(0x0)\Pci(0x1A,0x7)\USB(0x2,0x0)\HD(1,MBR,0x00000000,0x194000,0x394B000)
+7:954  0:003  === [ GetMacAddress ] =====================================
+8:252  0:298  === [ ScanSPD ] ===========================================
+8:573  0:320  Scanning SMBus [8086:3A30], mmio: 0xF7FFB004, ioport: 0xECE0, hostc: 0x1
+8:577  0:004  === [ GetAcpiTablesList ] =================================
+8:821  0:243  Get Acpi Tables List from RSDT:
+8:851  0:029   - [00]: FACP  B10K    len=116
+8:854  0:003   - [01]: SSDT  st_ex len=156
+8:858  0:003   - [02]: BOOT  B10K    len=40
+8:861  0:002   - [03]: ASF!  B10K    len=150
+8:864  0:002   - [04]: MCFG  B10K    len=60
+8:891  0:027   - [05]: HPET  B10K    len=56
+8:896  0:005   - [06]: DMAR  B10K    len=272
+8:899  0:002   - [07]: _RAT  B10K    len=48
+8:902  0:002   - [08]: TCPA  B10K    len=50
+8:906  0:003   - [09]: APIC  B10K    len=618
+8:908  0:002   - [10]: SLIC  B10K    len=374
+8:912  0:003   - [11]: SSDT  PPM RCM  len=30204
+8:939  0:026  Calibrated TSC Frequency = 3059001331 = 3059MHz
+8:942  0:002  === [ GetUserSettings ] ===================================
+9:164  0:222  USB FixOwnership: yes
+9:167  0:002  Dropping 1 tables:
+9:173  0:005   - [00]: Drop table  signature="MATS" (5354414D)
+9:224  0:050           - set table: 5354414D,                0 to drop: no
+9:230  0:006   - final DSDT Fix mask=00009051
+9:233  0:002  Using ProductName from config: iMac14,2
+9:237  0:003  Using latest BiosVersion from config
+9:264  0:027  BiosVersion: IM142.88Z.F000.B00.1812191208
+9:267  0:002  BiosReleaseDate: 12/19/2018
+9:271  0:003  Using EfiVersion from config: 134.0.0.0.0
+9:274  0:003  Using FirmwareFeatures from config: 0xE00FE137
+9:279  0:005  Using FirmwareFeaturesMask from config: 0xFF1FFF3F
+9:282  0:002  Board-ID set from config as Mac-27ADBB7B4CEE8E61
+9:285  0:002  BoardType: 0xA
+9:314  0:029  ChassisType: 0xD
+9:317  0:002  QPI: use Table 132
+9:321  0:003  No AudioIoProtocols, status=Not Found
+9:324  0:002  === [ Found DSDT tables ] =================================
+12:899  3:575  === [ ScanVolumes ] =======================================
+13:176  0:276  Found 15 volumes with blockIO
+13:179  0:003  - [00]: Volume: PcieRoot(0x0)\Pci(0x1A,0x7)\USB(0x2,0x0)
+13:199  0:019          Result of bootcode detection: bootable unknown (legacy)
+13:224  0:025          USB volume
+13:228  0:003  - [01]: Volume: PcieRoot(0x0)\Pci(0x1A,0x7)\USB(0x2,0x0)\HD(1,MBR,0x00000000,0x194000,0x394B000)
+13:246  0:018          Result of bootcode detection: bootable unknown (legacy)
+13:267  0:021          USB volume
+13:270  0:002          This is SelfVolume !!
+13:274  0:003  - [02]: Volume: PcieRoot(0x0)\Pci(0x1A,0x7)\USB(0x2,0x0)\HD(2,MBR,0x00000000,0x3ADF000,0xDFFFF)
+13:294  0:020          Result of bootcode detection: bootable Windows (win)
+13:316  0:021          USB volume
+13:345  0:028  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)
+13:361  0:016          Result of bootcode detection: bootable unknown (legacy)
+13:364  0:003  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)
+13:496  0:131          Result of bootcode detection: bootable unknown (legacy)
+13:499  0:003  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)
+13:508  0:008          Found optical drive
+13:511  0:002  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,MBR,0x109C7779,0x800,0xC800800)
+13:518  0:007          Result of bootcode detection: bootable Windows (vista,win)
+13:521  0:002  - [07]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,MBR,0x109C7779,0xC801000,0xDC607800)
+13:530  0:009  - [08]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,MBR,0x109C7779,0xC801000,0xDC607800)\HD(1,MBR,0x00000000,0xC801800,0x37200800)
+13:540  0:009          Result of bootcode detection: bootable Windows (vista,win)
+13:543  0:003  - [09]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,MBR,0x109C7779,0xC801000,0xDC607800)\HD(2,MBR,0x00000000,0x43A02800,0x37200800)
+13:575  0:032          Result of bootcode detection: bootable Windows (vista,win)
+13:578  0:002  - [10]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,MBR,0x109C7779,0xC801000,0xDC607800)\HD(3,MBR,0x00000000,0x7AC03800,0x37200800)
+13:586  0:008          Result of bootcode detection: bootable Windows (vista,win)
+13:615  0:028  - [11]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,MBR,0x109C7779,0xC801000,0xDC607800)\HD(4,MBR,0x00000000,0xB1E04800,0x37004000)
+13:623  0:007          Result of bootcode detection: bootable Windows (vista,win)
+13:625  0:002  - [12]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(1,GPT,92BEC694-D076-47D5-855C-9FEEACB39A19,0x28,0x64000)
+13:780  0:154          Result of bootcode detection: bootable unknown (legacy)
+13:785  0:005  - [13]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(2,GPT,4479DF81-7609-4A7B-8DFA-043711A5CFCC,0x64028,0x3A1EC0C0)
+13:792  0:006  - [14]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(3,GPT,88D89653-6796-44C8-8B1F-2090AEA14CAA,0x3A2500E8,0x135F20)
+13:828  0:036  Loading nvram.plist from Vol 'EFI' - loaded, size=1153
+13:839  0:010  === [ PutNvramPlistToRtVars ] =============================
+14:041  0:201  === [ InitTheme ] =========================================
+14:332  0:291  use daylight theme
+14:359  0:027  GlobalConfig: tonymacx86 not found, get embedded theme
+14:362  0:002   using embedded theme
+14:366  0:003  got embedded sound
+14:369  0:002    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+14:372  0:003  output to channel 0 with volume 70, len=25600
+14:375  0:002   sound channels=2 bits=16 freq=8000
+14:378  0:002  sound converted to 48kHz
+14:408  0:029  not found AudioIo to play
+14:412  0:004  Using embedded font: Success
+14:417  0:005  theme inited
+14:420  0:002  Chosen embedded theme
+14:423  0:002  after NVRAM boot-args=-v dart=0 kext-dev-mode=1 nvda_drv=1
+14:451  0:028  Scanning legacy ...
+14:454  0:003   2: 'EFI' (win) add legacy
+14:461  0:006   added 'Boot Windows from EFI' OSType=2 Icon=win
+14:465  0:003   6: 'Legacy HD1' (vista,win) add legacy
+14:481  0:016   added 'Boot Windows from Legacy HD1' OSType=2 Icon=vista,win
+14:484  0:003   8: 'Legacy HD1' (vista,win) add legacy
+14:516  0:031   added 'Boot Windows from Legacy HD1' OSType=2 Icon=vista,win
+14:521  0:005   9: 'Legacy HD2' (vista,win) add legacy
+14:528  0:006   added 'Boot Windows from Legacy HD2' OSType=2 Icon=vista,win
+14:531  0:002  10: 'Legacy HD3' (vista,win) add legacy
+14:563  0:031   added 'Boot Windows from Legacy HD3' OSType=2 Icon=vista,win
+14:566  0:003  11: 'Legacy HD4' (vista,win) add legacy
+14:573  0:006   added 'Boot Windows from Legacy HD4' OSType=2 Icon=vista,win
+14:576  0:002  === [ Dump SMC keys from NVRAM ] ==========================
+14:791  0:215  no AppleSMC protocol
+14:795  0:003  === [ ScanLoader ] ========================================
+15:079  0:284  - [01]: 'Install macOS High Sierra'
+15:248  0:168          AddLoaderEntry for Volume Name=Install macOS High Sierra
+15:818  0:570          AddLoaderEntry for Volume Name=Install macOS High Sierra
+15:821  0:002          skipped because entry is hidden
+15:824  0:002  - [02]: 'EFI'
+15:857  0:032          AddLoaderEntry for Volume Name=EFI
+15:879  0:022          skipped because entry is hidden
+15:884  0:004  - [12]: 'EFI'
+15:985  0:101          AddLoaderEntry for Volume Name=EFI
+15:988  0:003          skipped because entry is hidden
+15:991  0:002  - [13]: 'Mac OX'
+16:046  0:055          AddLoaderEntry for Volume Name=Mac OX
+16:058  0:011      Check if volume Is Hibernated:
+16:061  0:003      Check sleep image 'by signature':
+16:107  0:045      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+16:110  0:003      using default sleep image name = \private\var\vm\sleepimage
+16:146  0:036      sleepimage not found -> Not Found
+16:150  0:003      hibernated: no - sign
+16:333  0:182  - [14]: 'Recovery HD'
+16:364  0:031          AddLoaderEntry for Volume Name=Recovery HD
+16:482  0:118  === [ AddCustomTool ] =====================================
+16:741  0:258  Checking EFI partition Volume 12 for Clover
+16:744  0:002   Found Clover
+16:748  0:004  === [ GetEfiBootDeviceFromNvram ] =========================
+16:931  0:183   - efi-boot-device-data: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(2,GPT,4479DF81-7609-4A7B-8DFA-043711A5CFCC,0x64028,0x3A1EC0C0)
+16:936  0:004    - Volume: 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(2,GPT,4479DF81-7609-4A7B-8DFA-043711A5CFCC,0x64028,0x3A1EC0C0)'
+16:940  0:003    - LoaderPath: '<null string>'
+16:943  0:002    - Guid = 4479DF81-7609-4A7B-8DFA-043711A5CFCC
+16:946  0:002  === [ FindStartupDiskVolume ] =============================
+17:178  0:232    - Volume: partition = PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(2,GPT,4479DF81-7609-4A7B-8DFA-043711A5CFCC,0x64028,0x3A1EC0C0)
+17:184  0:005     - searching for that partition
+17:187  0:002      - found entry 7. 'Boot macOS from Mac OX', Volume 'Mac OX'
+17:191  0:003  Boot redirected to Entry 7. 'Boot macOS from Mac OX'
+17:217  0:025  DefaultIndex=7 and MainMenu.EntryCount=14
+17:221  0:003  === [ StartLoader ] =======================================
+17:474  0:253  Finally: ExternalClock=134MHz BusSpeed=133001kHz CPUFreq=3059MHz PIS: hw.busfrequency=536000000Hz
+17:482  0:008  Loading boot.efi  status=Success
+18:062  0:579  GetOSVersion: 10.13.6 (17G65)
+18:086  0:023  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS
+18:089  0:003  Filtering KextPatches:
+18:092  0:003   - [00]: AppleAHCIPort (External icons patch) :: BinPatch :: [OS: 10.13.6 | MatchOS: All | MatchBuild: All] ==> allowed
+18:099  0:006  Will not patch boot.efi
+18:183  0:083  === [ PatchSmbios ] =======================================
+18:800  0:616  insert table 9 for dev 0:0
+18:833  0:033  insert table 9 for dev 0:1
+18:836  0:002  insert table 9 for dev 0:0
+18:839  0:002  insert table 9 for dev A:0
+18:844  0:004  Trusting SMBIOS...
+18:847  0:002  Detected alternating SMBIOS channel banks
+18:859  0:011  Channels: 3
+18:861  0:002  Interleave: 0 2 4 1 3 5 6 8 10 7 9 11 12 14 16 13 15 17 18 20 22 19 21 23
+18:994  0:132   partNum=36JSZF51272PZ1G4F1
+18:997  0:003  SMBIOS Type 17 Index = 0 => 0 0:
+19:000  0:002  BANK 0 DIMM0 1333MHz 4096MB
+19:030  0:030   partNum=36JSZF51272PZ1G4F1
+19:033  0:002  SMBIOS Type 17 Index = 1 => 1 2:
+19:036  0:002  BANK 1 DIMM0 1333MHz 4096MB
+19:039  0:002   partNum=36JSZF51272PZ1G4F1
+19:043  0:003  SMBIOS Type 17 Index = 2 => 2 4:
+19:046  0:002  BANK 2 DIMM0 1333MHz 4096MB
+19:074  0:028  SMBIOS Type 17 Index = 3 => 3 1:
+19:078  0:003  BANK 0 DIMM1 EMPTY
+19:081  0:002  SMBIOS Type 17 Index = 4 => 4 3:
+19:084  0:002  BANK 1 DIMM1 EMPTY
+19:113  0:028  SMBIOS Type 17 Index = 5 => 5 5:
+19:116  0:002  BANK 2 DIMM1 EMPTY
+19:122  0:005   partNum=36JSZF51272PZ1G4F1
+19:125  0:002  SMBIOS Type 17 Index = 6 => 6 6:
+19:127  0:002  BANK 0 DIMM2 1333MHz 4096MB
+19:156  0:028   partNum=36JSZF51272PZ1G4F1
+19:159  0:003  SMBIOS Type 17 Index = 7 => 7 8:
+19:162  0:002  BANK 1 DIMM2 1333MHz 4096MB
+19:166  0:004   partNum=36JSZF51272PZ1G4F1
+19:169  0:002  SMBIOS Type 17 Index = 8 => 8 10:
+19:172  0:002  BANK 2 DIMM2 1333MHz 4096MB
+19:201  0:028  SMBIOS Type 17 Index = 9 => 9 7:
+19:203  0:002  BANK 0 DIMM3 EMPTY
+19:209  0:005  SMBIOS Type 17 Index = 10 => 10 9:
+19:212  0:002  BANK 1 DIMM3 EMPTY
+19:216  0:003  SMBIOS Type 17 Index = 11 => 11 11:
+19:219  0:002  BANK 2 DIMM3 EMPTY
+19:222  0:002  mTotalSystemMemory = 24576
+19:250  0:028  NumberOfMemoryDevices = 12
+19:253  0:002  === [ PatchACPI ] =========================================
+19:518  0:264  Xsdt reallocation done
+19:521  0:002  old FADT length=F4
+19:524  0:003   SignatureFixup: 0x0 -> 0x0
+19:628  0:103  Apply DsdtFixMask=0x00009051
+19:637  0:009     drop _DSM mask=0xFFFF
+19:642  0:004  === [ FixBiosDsdt ] =======================================
+19:913  0:270    0 replacements
+19:917  0:004  found PIC had IRQNoFlag will move -3 bytes
+19:920  0:002  Start HPET Fix
+19:924  0:004  Start Add Device HDEF
+19:952  0:027  PreCleanup XSDT: count=12, length=132
+19:956  0:003  PreCleanup XSDT, corrected XSDT: count=12, length=132
+19:959  0:002  === [ ACPIDropTables ] ====================================
+20:229  0:270    0 replacements
+20:233  0:003    0 replacements
+20:238  0:005  Out of control with CPU numbers
+20:241  0:003  CPUBase=1 and ApicCPUBase=1 ApicCPUNum=12
+20:244  0:002  Cleanup XSDT: count=12, length=132
+20:273  0:028  corrected XSDT count=12, length=132
+20:276  0:003  === [ RestSetup macOS ] ===================================
+20:498  0:222  NVidia GFX injection not set
+20:501  0:003   setting specified layout-id=13 (0xD)
+20:530  0:028  stringlength = 2662
+20:533  0:003  CurrentMode: Width=1920 Height=1080
+20:536  0:002  Beginning FSInjection
+20:541  0:005   - ERROR: gFSInjectProtocolGuid not found!
+20:544  0:002  Use origin smbios table type 1 guid.
+20:598  0:053  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+20:601  0:002  Extra kext: EFI\CLOVER\kexts\Other\WhateverGreen.kext (v.1.2.6)
+22:124  1:522  Extra kext: EFI\CLOVER\kexts\Other\Lilu.kext (v.1.3.1)
+22:767  0:643  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_GPUSensors.kext (v.1800)
+23:329  0:561  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_CPUSensors.kext (v.1800)
+23:684  0:355  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_ACPISensors.kext (v.1800)
+24:144  0:459  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext (v.1800)
+24:606  0:462  Extra kext: EFI\CLOVER\kexts\Other\FakePCIID_XHCIMux.kext (v.1.3.15)
+24:973  0:367  Extra kext: EFI\CLOVER\kexts\Other\FakePCIID.kext (v.1.3.15)
+25:351  0:378  Extra kext: EFI\CLOVER\kexts\Other\BCM5722D.kext (v.1.0.3)
+25:843  0:491  Extra kext: EFI\CLOVER\kexts\Other\AppleALC.kext (v.1.3.4)
+30:131  4:288  Custom boot screen not used because entry has unset use graphics
+30:136  0:004  Closing log
+34:532  4:396  USB UHCI reset for device 3A37
+34:536  0:004  USB UHCI reset for device 3A38
+34:540  0:003  USB UHCI reset for device 3A39
+34:544  0:004  Legacy USB Off Done
+34:548  0:003  USB EHCI Ownership for device 3A3C value=1000001
+34:552  0:004  USB UHCI reset for device 3A34
+34:556  0:004  USB UHCI reset for device 3A35
+34:560  0:004  USB UHCI reset for device 3A36
+34:564  0:003  Legacy USB Off Done
+34:590  0:026  USB EHCI Ownership for device 3A3A value=1000001
